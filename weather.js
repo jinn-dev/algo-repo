@@ -12,7 +12,7 @@ function getWeather(lat, lon) {
       const temperature = json.main.temp;
       const place = json.name;
       const desc = json.weather[0].description;
-      weather.innerText = `${temperature} @ ${place}  ${desc} :)`;
+      weather.innerText = `${temperature}℃ @ ${place}`;
     }); //데이터가 완전히 넘어왔을 때 함수 호출해준다.
 }
 

@@ -1,3 +1,26 @@
+ul {
+   list-style: none; /* 불릿 없애기 */
+   padding-left: 0px; /* 들여쓰기 없애기 */
+   font-family: consolas;
+   color: white;
+   font-weight: bold;
+}
+
+button {
+  border: 1px solid grey;
+  background-color: white;
+  color: grey;
+  padding 5px;
+  border-top-left-redius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-right: 5px;
+}
+
+button:hover {
+  color: white;
+  background-color: grey;
+}
+
 .form,
 .greetings {
   display: none;
@@ -28,32 +51,54 @@
 
 .clock {
   font-family: consolas;
-  font-size: 6em;
+  font-size: 8em;
   color: white;
   transition: color 0.5s ease-in-out;
 }
 
 .greetings {
+  font-family: consolas;
+  font-weight: bold;
+  font-size: 2em;
   color: white;
 }
 
 .container {
-  postion: relative;
+  margin-top: 10%;
 }
 
 .clock-cont {
   display: flex;
   justify-content: center;
+  display: flex;
+  top: 10%;
 }
 
 .greetings-cont {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.5em;
+}
 
+.input-todo {
+  width: 450px;
+  height: 2em;
 }
 
 .todo-cont {
+  display: flex;
+  justify-content: center;
+}
 
+.todo-list-cont {
+  display: flex;
+  justify-content: center;
 }
 
 .weather-cont {
-
+  display: flex;
+  justify-content: center;
+  font-family: consolas;
+  font-weight: bold;
+  color: white;
 }
