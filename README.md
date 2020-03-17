@@ -6,3 +6,5 @@ This is toy project for vanilla js study.
 - I can check the weather with geolocation
 
 I'm making a welcome simple page for js review. :satisfied:
+
+https://jinn-dev.github.io/js-momentum/
